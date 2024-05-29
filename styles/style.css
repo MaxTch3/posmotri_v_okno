@@ -162,6 +162,10 @@ ol {
   background-color: #fff;
 }
 
+.search-form__label:active:has(.search-form__pseudo-checkbox) .search-form__label-text {
+  border: none;
+}
+
 .button {
   border: 1px #fff solid;
   color: #fff;
@@ -170,6 +174,20 @@ ol {
   line-height: 1.2;
   background-color: transparent;
   cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  text-decoration: none;
+  background-color: #545050;
+}
+
+.button:focus-visible {
+  outline: 1px #fff solid;
+  outline-offset: 1px;
 }
 
 .search-form__submit-button {
