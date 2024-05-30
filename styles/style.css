@@ -73,8 +73,8 @@ ol {
 }
 
 .result__video {
-  /* inline-size: 100%;
-  block-size: 100%; */
+  inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -267,7 +267,8 @@ ol {
 }
 
 .content__card-link:focus-visible .content__video-card {
-  border: 1px #fff solid;
+  outline: 1px #fff solid;
+  margin: 2px
 }
 
 .content__card-link:active .content__video-card {
@@ -293,7 +294,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  /* min-inline-size: 194px; */
+  min-inline-size: 194px;
   block-size: 103px;
   object-fit: cover;
   object-position: center;
