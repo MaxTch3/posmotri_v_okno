@@ -237,9 +237,8 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
   block-size: 298px;
-  -ms-overflow-style: none;
 }
 
 .content__card-link {
